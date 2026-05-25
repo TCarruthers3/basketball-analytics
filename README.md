@@ -10,7 +10,7 @@ Pulls live player stats from the NBA API and identifies the top 20 points-per-ga
 
 **Key findings:**
 - Shai Gilgeous-Alexander led the league at 32.7 PPG
-- Analysis filters to players with 20+ games played for statistical reliability
+- Analysis filters to players with 60+ games played for statistical reliability
 - Visualised as a horizontal bar chart
 
 **Tools used:** Python, pandas, nba_api, matplotlib
