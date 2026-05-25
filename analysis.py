@@ -17,8 +17,8 @@ df = stats.get_data_frames()[0]
 # Keep only useful columns
 df = df[['PLAYER_NAME', 'TEAM_ABBREVIATION', 'GP', 'PTS', 'REB', 'AST', 'FG_PCT', 'FG3_PCT', 'MIN']]
 
-# Filter to players with at least 20 games played
-df = df[df['GP'] >= 20]
+# Filter to players with at least 60 games played
+df = df[df['GP'] >= 60]
 
 # Sort by points per game
 df = df.sort_values('PTS', ascending=False)
